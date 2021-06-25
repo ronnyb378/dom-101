@@ -1,0 +1,36 @@
+/* body */
+body {
+    margin: 0;
+}
+/* navbar */
+.navbar {
+    background-color: rgb(48, 159, 246);
+    padding: 2px 10px;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+.navbar ul li {
+    padding-right: 50px;
+}
+.navbar ul li.active {
+    font-weight: bold;
+}
+
+/* subheading */
+.second-header {
+    background-color: rgb(199, 199, 199);
+    /* margin-top: 5px; */
+    margin: 20px;
+}
+
+/* content */
+.main-content {
+    background-color: rgba(97, 2, 2, 0.35);
+    margin: 20px;
+}
